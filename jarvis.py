@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
 
         print("recoginzing....")
-    # recognize speech using google_recognizer
+        # recognize speech using google
         try:
             with sr.Microphone() as source:
                 print("Say something!")
